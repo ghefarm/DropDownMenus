@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Authors>Gh.Mansour</Authors>
+	<Title>Easy DropDownMenu</Title>
+    <Description>Easy-To-Use DropDownMenu for WPF applications</Description>
+    <PackageTags>DropDownMenu, DropDown, Menu, Drop Down Menu, WPF</PackageTags>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <PropertyGroup>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageId>Easy-DropDownMenu</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+	<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+
+</Project>
